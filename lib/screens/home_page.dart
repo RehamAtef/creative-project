@@ -1,5 +1,4 @@
 import 'dart:html';
-
 import 'package:creative_project/screens/nav_bar_pages/categories_screen.dart';
 import 'package:creative_project/screens/nav_bar_pages/main_screen.dart';
 import 'package:creative_project/screens/nav_bar_pages/settings_screen.dart';
@@ -16,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePage extends State<HomePage> {
   int pageIndex = 0;
-  List<Widget> pages = [MainScreen(), CategoriesScreen(), SettingScreen()];
+  List<Widget> pages = [MainScreen(), CategoriesScreen(), SettingsScreen()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
